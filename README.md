@@ -16,14 +16,11 @@
 
 Updater - Отвечает за коммуникацию с сервером.
 -----------------------------------------------------------
-Настройки проксей для телеграм бота.
-t1.learn.python.ru:1080 login learn password python
-t2.learn.python.ru:1080 login learn password python
-t3.learn.python.ru:1080 login learn password python
+
 
 # Словарь с проксей
-PROXY = {'proxy_url':'socks5://t2.learn.python.ru:1080',
-    'urllib3_proxy_kwargs':{'username':'learn', 'password':'python'}}
+PROXY = {'eeeee',
+    'urllib3_proxy_kwargs':{'username':'name', 'password':'pass'}}
 
     mybot = Updater("СуперСесюритиПоинт",
           use_context=True, request_kwargs=PROXY
